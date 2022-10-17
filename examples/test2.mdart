@@ -1,0 +1,9 @@
+var a = [1,2];
+print(a);
+var b = [3, 4, ...a];
+print(tobool(b[0]));
+var d = {};
+d[1] = 2;
+d[2] = 3;
+print(d);
+print(keys(d));
